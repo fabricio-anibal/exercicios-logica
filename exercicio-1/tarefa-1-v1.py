@@ -1,1 +1,1 @@
-print("Olá, Fabricio!")
+print(20 + 7)
