@@ -6,10 +6,13 @@ while contador < 10:
     valor = int(input("entre com o valor"))
     soma = soma + valor
     contador = contador + 1
-    if valor > maior:
-            maior = valor
+    if contador == 1:
+        menor = valor
     elif valor < menor:
-            menor = valor
+        menor = valor
+    elif valor > maior:
+        maior = valor
+        
 media = soma / 10
 print(media, "é a media dos valores")
 print(soma, "é a soma dos valores")
